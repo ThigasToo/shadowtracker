@@ -38,7 +38,9 @@ O projeto é dividido em duas partes que conversam entre si: o **Back-end** (O m
    ```
    playwright install chromium
    ```
+   
 5. Abra o arquivo main.py em um editor de texto, procure a linha client = OpenAI(api_key="SUA_NOVA_CHAVE_AQUI") e cole a sua chave real da OpenAI.
+
 6. Ligue o servidor rodando o comando:
    ```
    uvicorn main:app --reload
